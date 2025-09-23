@@ -1,0 +1,37 @@
+﻿# Example Pebble program
+
+print "Hello, Pebble!"
+
+# Variables and arithmetic
+x = 50
+y = 20
+z = x + y
+print z   # should be 70
+
+# If statement
+if x < y {
+    print "x is less than y"
+} else {
+    print "x is greater or equal to y"
+}
+
+# Another arithmetic
+a = 100
+b = 45
+print a - b   # 55
+
+# While loop
+i = 0
+while i < 5 {
+    print i
+    i = i + 1
+}
+
+# String concatenation done safely
+print "The value of x is ", x
+print "The sum of x and y is ", z
+
+# For loop
+for j in 1..5 {
+    print "j = ", j
+}
