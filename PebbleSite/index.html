@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pebble Language</title>
+  <title>Pebble</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,9 +34,19 @@
       border-radius: 5px;
       cursor: pointer;
       text-decoration: none;
+      transition: background-color 0.2s;
     }
     .download-button:hover {
       background-color: #0056b3;
+    }
+    .info-text {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #cccccc;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5em;
     }
     footer {
       background-color: #333333;
@@ -51,20 +61,25 @@
 <body>
 
   <header>
-    <h1>Pebble Language</h1>
+    <h1>Pebble</h1>
   </header>
 
   <div class="download-section">
     <h2>Download Pebble Console</h2>
-    <a href="https://github.com/AGOODGITDUCK/PebbleCode/raw/main/PebbleConsole.exe" class="download-button" download>
-      Download Pebble Console
+    <a href="https://github.com/AGOODGITDUCK/PebbleCode/raw/main/PebbleConsole.exe" 
+       class="download-button" download>
+       Download Pebble 1.0
     </a>
+    <p class="info-text">
+      This is the first version of Pebble. It is a simple coding language. Pebble 1.1 will allow you to make apps.  
+      Pebble supports Windows XP - The latest version of Windows, but on versions earlier than Windows 7 you will need to install Python.  
+      Credits go to Adam .T Nassar.
+    </p>
   </div>
 
   <footer>
-    <p>&copy; 2025 Pebble Language. All rights reserved.</p>
+    <p>&copy; 2025 Pebble. All rights reserved.</p>
   </footer>
 
 </body>
 </html>
-
